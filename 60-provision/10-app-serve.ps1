@@ -69,7 +69,7 @@ spec:
     port: 8080
     targetPort: $port
   selector:
-    app: $appname
+    app: $appname-app
 ---    
 apiVersion: networking.k8s.io/v1
 kind: Ingress
