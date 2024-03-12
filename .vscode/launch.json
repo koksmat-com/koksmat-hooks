@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "auto",
             "cwd": "${workspaceFolder}/.koksmat/app",
-            "program": "${workspaceFolder}",
+            "program": "${workspaceFolder}/.koksmat/app",
             "args": ["serve"]
         }, 
 
