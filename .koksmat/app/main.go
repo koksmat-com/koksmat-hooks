@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -7,7 +6,6 @@ import (
 
 	"github.com/365admin/koksmat-hooks/magicapp"
 )
-
 
 func main() {
 	info, _ := debug.ReadBuildInfo()
@@ -23,7 +21,7 @@ description: Describe the main purpose of this kitchen
 # koksmat-hooks
 `
 	magicapp.Setup(".env")
-	magicapp.RegisterServeCmd("koksmat-hooks", description, "0.0.1", 8080)
+	magicapp.RegisterServeCmd("koksmat-hooks", description, "0.0.1", 7001)
 	magicapp.RegisterCmds()
 	magicapp.Execute(name, "koksmat-hooks", "")
 }
